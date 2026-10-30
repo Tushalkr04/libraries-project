@@ -1,0 +1,16 @@
+{
+  "name": "libraries",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small Oracle PL/SQL library management app",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "oracledb": "^6.7.2"
+  }
+}
